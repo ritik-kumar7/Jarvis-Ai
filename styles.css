@@ -1,0 +1,125 @@
+:root {
+    --primary: #6e48aa;
+    --secondary: #9d50bb;
+    --dark: #1a1a2e;
+    --light: #f8f9fa;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.chat-container {
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 1rem;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chat-message {
+    margin-bottom: 1.5rem;
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.chat-message.user {
+    text-align: right;
+}
+
+.chat-message.user .message-content {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 18px 18px 0 18px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.chat-message.jarvis .message-content {
+    background: #fff;
+    color: #333;
+    padding: 0.8rem 1.2rem;
+    border-radius: 18px 18px 18px 0;
+    border: 1px solid #eee;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.sender-name {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #888;
+    margin-bottom: 0.2rem;
+}
+
+.code-block {
+    background: #282c34;
+    color: #abb2bf;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1rem 0;
+    font-family: 'Courier New', monospace;
+    position: relative;
+}
+
+.copy-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 4px 10px;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.copy-btn:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar-section {
+    margin-bottom: 1.2rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+.sidebar-section-title {
+    color: #eee;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
+    margin: 1.5rem 0;
+}

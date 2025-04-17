@@ -1,0 +1,8 @@
+numpy
+pandas
+transformers
+torch
+python-dotenv
+nltk
+scikit-learn
+openai
