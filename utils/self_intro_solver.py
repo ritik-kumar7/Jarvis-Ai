@@ -22,7 +22,7 @@ class SelfIntroSolver(BaseSolver):
             return ("I can help with a variety of tasks including solving math problems, writing and debugging code, "
                     "providing historical knowledge, generating creative content like poems or stories, analyzing data, and much more!")
 
-        if "how do you work" in query or "how do you operate" in query:
+        if "how do you work" in query or "how do you operate" in query or "what are you doing ":
             return ("I work by processing your input through advanced algorithms, using deep learning models to generate responses, "
                     "and constantly learning from the interactions I have with you. My goal is to provide useful and relevant information.")
 
@@ -39,7 +39,7 @@ class SelfIntroSolver(BaseSolver):
             return ("I can process and analyze information quickly, but I don't think like humans. "
                     "Instead, I use algorithms to make decisions and provide responses based on data and patterns.")
 
-        if "are you intelligent" in query or "how smart are you" in query:
+        if "are you intelligent" in query or "are you smart" in query:
             return ("I am designed to perform tasks efficiently, but my intelligence is different from human intelligence. "
                     "I rely on algorithms and data to generate responses, and I am constantly improving.")
 
