@@ -289,7 +289,7 @@ else:
     chat_container = st.container()
     with chat_container:
         for i, (sender, message) in enumerate(st.session_state.chat_history):
-            icon = "https://img.icons8.com/fluency/48/user-male-circle.png" if sender == "You" else "https://i.imgur.com/mvMfOa5.png"
+            icon = "https://i.imgur.com/jxFFA7m.jpg" if sender == "You" else "https://i.imgur.com/mvMfOa5.png"
             message_class = "user-message" if sender == "You" else "bot-message"
 
             # Handle code blocks differently
