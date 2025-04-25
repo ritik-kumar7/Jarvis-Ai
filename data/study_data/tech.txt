@@ -24,20 +24,4 @@ how are you doing today?	i'm doing great. what about you?
 i'm doing great. what about you?	i'm absolutely lovely, thank you.
 i'm absolutely lovely, thank you.	everything's been good with you?
 everything's been good with you?	i haven't been better. how about yourself?
-i haven't been better. how about yourself?	i started school recently.
-i started school recently.	where are you going to school?
-where are you going to school?	i'm going to pcc.
-i'm going to pcc.	how do you like it so far?
-how do you like it so far?	i like it so far. my classes are pretty good right now.
-i like it so far. my classes are pretty good right now.	i wish you luck.
-it's an ugly day today.	i know. i think it may rain.
-i know. i think it may rain.	it's the middle of summer, it shouldn't rain today.
-it's the middle of summer, it shouldn't rain today.	that would be weird.
-that would be weird.	yeah, especially since it's ninety degrees outside.
-yeah, especially since it's ninety degrees outside.	i know, it would be horrible if it rained and it was hot outside.
-i know, it would be horrible if it rained and it was hot outside.	yes, it would be. 
-yes, it would be. 	i really wish it wasn't so hot every day. 
-i really wish it wasn't so hot every day. 	me too. i can't wait until winter.
-me too. i can't wait until winter.	i like winter too, but sometimes it gets too cold.
-i like winter too, but sometimes it gets too cold.	i'd rather be cold than hot.
-i'd rather be cold than hot.	me too.
+
