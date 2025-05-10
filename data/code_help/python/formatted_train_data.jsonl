@@ -60,7 +60,3 @@
 {"instruction": "Write Python code based on the request.", "input": "Write a Python function using numpy to create an array of zeros.", "output": "import numpy as np\nzeros_array = np.zeros((3, 3))\nprint(zeros_array)"}
 {"instruction": "Write Python code based on the request.", "input": "Write a Python program using pandas to create a DataFrame.", "output": "import pandas as pd\ndata = {'name': ['Alice', 'Bob'], 'age': [25, 30]}\ndf = pd.DataFrame(data)\nprint(df)"}
 {"instruction": "Write Python code based on the request.", "input": "Write a Python function to sort a list of numbers.", "output": "def sort_list(numbers):\n    return sorted(numbers)"}
-{"instruction": "Write Python code based on the request.", "input": "Write a Python while loop to count from 1 to 3.", "output": "i = 1\nwhile i <= 3:\n    print(i)\n    i += 1"}
-{"instruction": "Write Python code based on the request.", "input": "Add two numbers using Python function.", "output": "def add(a, b):\n    return a + b"}
-{"instruction": "Write Python code based on the request.", "input": "Create a method in Python to sum two integers.", "output": "def add(a, b):\n    return a + b"}
-{"instruction": "Write Python code based on the request.", "input": "How can I write a function to return the sum of two numbers?", "output": "def add(a, b):\n    return a + b"}
